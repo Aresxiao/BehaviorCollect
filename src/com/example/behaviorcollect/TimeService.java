@@ -22,6 +22,7 @@ public class TimeService implements Runnable{
 	public void run() {
 		// TODO Auto-generated method stub
 		try {
+			
 			serverSocket = new ServerSocket(port);
 			socket = serverSocket.accept();
 			dataInputStream = new DataInputStream(socket.getInputStream());

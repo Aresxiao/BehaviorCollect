@@ -38,6 +38,7 @@ public class SensorActivity extends Activity {
 			
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
+				
 				Thread thread = new Thread(timeService);
 				thread.start();
 			}
